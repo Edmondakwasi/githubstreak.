@@ -1,7 +1,9 @@
-const express = require('express');
-const axios = require('axios');
+import express from 'express';
+import axios from 'axios';
 const app = express();
-const port = 3000; // or any other available port
+import dotenv from 'dotenv';
+dotenv.config();
+const PORT =  process.env.PORT  // or any other available port
 
 // Add CORS middleware
 app.use(function(req, res, next) {
@@ -30,8 +32,8 @@ app.get('/api/leaderboard', async (req, res) => {
 });
 
 // Start the server
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
 
 // Helper functions
