@@ -1,26 +1,47 @@
-## Setting up Environment Variables
-
-1. Create a new file named `.env` in the root directory of the project.
-2. Copy the contents of `.env.example` into the new `.env` file.
-3. Replace the placeholder values with your own credentials and configuration settings.
-
-Note: The `.env` file should never be committed to version control, as it contains sensitive information.
 
 # Contributing to GitHubStreak
 
-Thank you for your interest in contributing to GitHubStreak! We welcome contributions from developers of all skill levels. By following these guidelines, you'll help ensure a smooth and efficient process for everyone involved.
+1. **Fork the Repository**  
+   Click the "Fork" button at the top right of this page to create your own copy of the repository.
+
+2. **Clone Your Fork**  
+   Run the following command to download your fork to your local machine:
+   ```bash
+   git clone https://github.com/your-username/githubstreak.-me-.git
+   ```
+3. **Setting up Environment Variables**  
+
+  1. Create a new file named `.env` in the root directory of the project.
+  2. Copy the contents of `.env.example` into the new `.env` file.
+  3. Replace the placeholder values with your own credentials and configuration settings.
+
+Note: The `.env` file should never be committed to version control, as it contains sensitive information.
+
+4. **Create a New Branch**  
+   Switch to a new branch where you’ll make your changes:
+   ```bash
+   git checkout -b your-branch-name
+   ```
+
+5. **Make Your Changes**  
+   Edit the code as needed and commit your changes with a clear, concise message:
+   ```bash
+   git commit -m "Describe your changes here"
+   ```
+
+6. **Push Your Changes**  
+   Upload your changes to your fork on GitHub:
+   ```bash
+   git push origin your-branch-name
+   ```
+
+7. **Submit a Pull Request**  
+   Go to the original repository on GitHub and open a pull request from your fork. Provide a clear description of your changes and why they are necessary.
 
 ## Code of Conduct
 
 By participating in this project, you are expected to uphold our [Code of Conduct](CODE_OF_CONDUCT.md). Please read it carefully before making any contributions.
 
-## Getting Started
-
-1. Fork the repository and create a new branch for your contribution.
-2. Make sure your code follows the project's coding style and conventions.
-3. Write clear and concise commit messages describing your changes.
-4. Test your changes thoroughly.
-5. Submit a pull request with a detailed description of your changes.
 
 ## Coding Style and Conventions
 
